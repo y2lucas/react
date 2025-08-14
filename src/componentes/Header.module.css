@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.ItemHeader {
+    color: var(--color-text);
+}
