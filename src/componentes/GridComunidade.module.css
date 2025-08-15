@@ -1,0 +1,67 @@
+.GridComunidade {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    row-gap: 100px;
+}
+
+.GridItemLeft {
+    height: 280px;
+    width: 630px;
+    border-bottom-right-radius: 120px;
+    border-top-right-radius: 120px;
+
+}
+
+
+.GridItemRight {
+    height: 280px;
+    width: 630px;
+    background-color: var(--azul);
+    border-bottom-left-radius: 120px;
+    border-top-left-radius: 120px;
+    margin-left: 400px;
+}
+
+.FundoRock {
+    background-image: url(../../backgroundRockComunidade.png);
+    height: 200px;
+    width: 600px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    object-fit: cover;
+    /* margin-top: 50px; */
+}
+
+
+.FundoPop {
+    background-image: url(../../backgroudPopComunidade.png);
+    height: 200px;
+    width: 600px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+    object-fit: cover;
+    /* margin-top: 50px; */
+}
+
+
+.GridItemRight {
+    height: 200px;
+    width: 630px;
+    object-fit: cover;
+    background-image:url(../../backgroudkpopcomunidade.jpeg) ;
+    border-bottom-left-radius: 120px;
+    border-top-left-radius: 120px;
+    margin-left: 400px;
+}
+
+.GridItemRightFinal{
+     height: 200px;
+    width: 630px;
+    object-fit: cover;
+    background-image:url(../../backgroudquerodormir.png) ;
+    border-bottom-left-radius: 120px;
+    border-top-left-radius: 120px;
+    margin-left: 400px;
+}

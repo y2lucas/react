@@ -1,0 +1,35 @@
+.grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.GridElement {
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+    h1 {
+        padding-left: 15px;
+        max-width: 300px;
+    }
+}
+
+.FlexIcon,
+.FlexAv {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.FlexAv {
+    margin-top: 14px;
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}

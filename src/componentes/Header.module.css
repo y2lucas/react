@@ -1,9 +1,26 @@
 .header {
     display: flex;
     justify-content: flex-end;
-   
+    padding-top: 30px;
+    padding-right: 20px;
+  
+    
 }
 
 .ItemHeader {
     color: var(--color-text);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+
+
+}
+
+.ItemHeader:hover {
+    color: var(--azul);
+
+}
+
+.LineHeader{
+border-bottom: solid white 2px;
 }

@@ -1,14 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --color-fundo: black;
-    --color-text: rgb(255, 255, 255);
+    --cinza: #303633;
+    --vermelho: #bf2727;
+    --vermelho-strange: #320000;
+    --branco: white;
+    --azul: #3c589a;
 }
 
 body {
-    background-color: var(--color-fundo);
-    margin: 0;
-    padding: 0;
+  background-color: var(--vermelho-strange);
+  color: var(--branco);
 }
 
-.header {
-    width: 100%; /* Adicionei isso */
-}
